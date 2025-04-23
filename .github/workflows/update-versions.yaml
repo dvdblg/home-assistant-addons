@@ -20,7 +20,7 @@ jobs:
 
       - name: Install Dependencies
         run: |
-          pip install pyyaml requests
+          pip install pyyaml requests packaging
 
       - name: Update Docker Versions
         id: update-docker-versions
